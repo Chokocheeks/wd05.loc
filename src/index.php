@@ -73,7 +73,7 @@ if($x == 0 || $y == 0){
     echo "<br>";
 
     $arr2 = [5, 9, -1, 8, 1, 11];
-    $avrg = round(array_sum($arr2) / count($arr2));
+    $avrg = array_sum($arr2) / count($arr2);
     var_dump($avrg);
     echo "<br>";
     foreach($arr2 as $el){
